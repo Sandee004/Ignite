@@ -146,3 +146,5 @@ if __name__ == "__main__":
             win_id="Microsoft.PowerToys",  # Windows Equivalent (PowerToys)
             linux_app="htop"               # Linux (Simple monitor tool, safer test)
         )
+
+        
