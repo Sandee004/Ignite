@@ -185,12 +185,11 @@ async def trigger_install(payload: InstallRequest, background_tasks: BackgroundT
     background_tasks.add_task(run_installation_task, payload.apps)
 
     return {
+        
         "status": "Accepted", 
         "message": "Installation started in background.",
         "monitor": "Check your server terminal for logs."
     }
-
-
 
 
 # ------------------------------
