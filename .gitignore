@@ -8,3 +8,9 @@ venv
 .venv
 .venv/
 .vscode/
+
+# PyInstaller Artifacts
+build/
+dist/
+*.spec
+.DS_Store
